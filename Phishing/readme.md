@@ -45,11 +45,7 @@ ifconfig
 
 ## 📷 Evidências Visuais
 
-### Página falsa em execução (Host)
-![Página falsa](../assets/setoolkit1.png)
-
-### Captura de credenciais (VM - Kali)
-![Terminal - SEToolkit](../assets/setoolkit_terminal_hit.png)
+---
 
 ---
 
