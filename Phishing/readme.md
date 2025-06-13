@@ -46,9 +46,10 @@ ifconfig
 ## 📷 Evidências Visuais
 
 ![Demonstração SEToolkit](setoolkit5.png)
----
+--
 Este laboratório foi executado em rede local. A máquina virtual Kali utilizou o IP 192.168.2.101 como servidor do ataque SEToolkit para demonstração.
----
+--
+
 
 ## 🔢 Resultados
 As credenciais digitadas foram capturadas com sucesso:
