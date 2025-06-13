@@ -32,9 +32,8 @@ sudo setoolkit
 https://www.facebook.com
 ```
 
-### 4. Inserir o IP local para captura de credenciais:
+### Obtendo o endereço da máquina: ``` ifconfig ```
 ```
-192.168.2.101
 ```
 
 ### 5. SEToolkit clona a página e ativa escuta:
