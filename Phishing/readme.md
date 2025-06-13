@@ -80,7 +80,8 @@ POSSIBLE PASSWORD FIELD FOUND: 123456
 
 ---
 
-
+**Autor:** Taylor Correa  
+**Data:** Junho de 2025
 ---
 
 ## ⚠️ Aviso Legal
