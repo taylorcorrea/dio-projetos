@@ -80,13 +80,12 @@ POSSIBLE PASSWORD FIELD FOUND: 123456
 
 ---
 
-**Autor:** Taylor Correa  
-**Data:** Junho de 2025
----
-
 ## ⚠️ Aviso Legal
 
 Este projeto foi desenvolvido com fins exclusivamente educacionais, como parte do Bootcamp de Cibersegurança promovido pela DIO e Santander. Todas as atividades foram realizadas em ambiente controlado e privado, sem afetar terceiros. O uso indevido das técnicas aqui demonstradas é ilegal e contra as diretrizes éticas da área de segurança da informação.
 
+
+---
 **Autor:** Taylor Correa  
 **Data:** Junho de 2025
+---
