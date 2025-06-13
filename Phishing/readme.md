@@ -32,7 +32,7 @@ sudo setoolkit
 https://www.facebook.com
 ```
 
-### Obtendo o endereço da máquina: ifconfig 
+### Obtendo o endereço da máquina:
 ```
 ifconfig
 ```
