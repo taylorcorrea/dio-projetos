@@ -32,8 +32,9 @@ sudo setoolkit
 https://www.facebook.com
 ```
 
-### Obtendo o endereço da máquina: ``` ifconfig ```
+### Obtendo o endereço da máquina: ifconfig 
 ```
+ifconfig
 ```
 
 ### 5. SEToolkit clona a página e ativa escuta:
