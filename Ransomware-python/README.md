@@ -40,7 +40,3 @@ Este projeto faz parte do desafio proposto no **bootcamp Santander Bootcamp 2025
 ```bash
 git clone https://github.com/taylorcorrea/dio-projetos.git
 cd dio-projetos/Ransomware-python
-
-
-![Exemplo de Criptografia](images/encrypt-example.png)
-![Exemplo de Descriptografia](images/decrypt-example.png)
