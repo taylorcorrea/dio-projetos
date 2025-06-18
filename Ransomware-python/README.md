@@ -83,9 +83,7 @@ Esse método mantém a chave fixa de forma segura sem gerar uma nova a cada exec
 
 ---
 
-## 📷 Imagens (opcional)
-
-Coloque prints da execução na pasta `/images` e referencie aqui se desejar.
+## 📷 Imagens 
 
 ---
 
