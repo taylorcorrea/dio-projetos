@@ -37,4 +37,6 @@ Repositório criado para centralizar os projetos, desafios e testes práticos re
 
 https://github.com/taylorcorrea/dio-projetos/tree/main/Phishing
 
+https://github.com/taylorcorrea/dio-projetos/tree/main/Ransomware-python
+
 
