@@ -1,69 +1,110 @@
-# 🔐 Projeto Ransomware em Python
+# 🛡️ Ransomware Python – Projeto de Cibersegurança
 
-Este projeto simula, de forma **educacional**, o funcionamento de um **ransomware**. Ele foi desenvolvido como parte do desafio do bootcamp de Cibersegurança da DIO.
+Este projeto tem como objetivo simular, para fins educacionais, o funcionamento básico de um **ransomware** utilizando a linguagem **Python**. Ele criptografa um arquivo específico (`teste.txt`) e permite sua posterior descriptografia usando uma chave derivada de uma senha.
 
----
-
-## 💡 Objetivos do Desafio
-
-- Aplicar conceitos de criptografia com Python.
-- Simular uma situação de pós-exploração comum em testes de intrusão.
-- Exercitar o uso do Git e GitHub para versionamento e documentação de projetos técnicos.
-
----
-
-## ⚙️ Como Funciona
-
-O projeto contém dois scripts principais:
-
-- `encrypter.py`: criptografa arquivos em um diretório-alvo.
-- `decrypter.py`: reverte a criptografia dos arquivos, desde que a chave correta esteja disponível.
+> ⚠️ **Atenção:** Este projeto é estritamente educativo. O uso indevido pode ser ilegal e é de responsabilidade exclusiva de quem o utiliza. **Nunca utilize em sistemas de terceiros sem autorização explícita.**
 
 ---
 
 ## 📁 Estrutura do Projeto
 
+#Ransomware-python/
+
+- encrypter.py # Criptografa o arquivo teste.txt
+- decrypter.py # Descriptografa o arquivo teste.txt
+- teste.txt # Arquivo de teste a ser criptografado
+- requirements.txt # Dependências do projeto
+- images/ # (opcional) Capturas de tela da execução
+- README.md # Este arquivo
+
 ---
 
+## 🚀 Como funciona
+
+- O `encrypter.py`:
+  - Deriva uma chave a partir da palavra `"Teste"`.
+  - Criptografa o conteúdo do `teste.txt`.
+- O `decrypter.py`:
+  - Usa a mesma derivação para restaurar o conteúdo original de `teste.txt`.
+
+A chave é derivada via SHA-256 e transformada em formato compatível com Fernet (base64 URL-safe).
 
 ---
 
-## 🚀 Como Executar
+## ✅ Pré-requisitos
 
-1. Clone o repositório:
+- Python 3.6 ou superior
+- Biblioteca `cryptography`
+
+Instale com:
 
 ```bash
-git clone https://github.com/taylorcorrea/dio-projetos.git
-cd dio-projetos/Ransomware-python
+pip install cryptography
 ```
----
+ou
 
-# Crie um ambiente virtual (opcional, mas recomendado):
-
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
-```
-
-# Instale as dependências:
 ```bash
 pip install -r requirements.txt
 ```
+---
 
-## 🛠 Tecnologias Utilizadas
-- Python 3.x
+## 🧪 Como testar
+Crie um arquivo chamado ```teste.txt``` com algum conteúdo.
 
-- Biblioteca ````cryptography ````
+Execute o ```encrypter.py```:
+```bash
+python encrypter.py
+```
 
-- Git / GitHub
+O conteúdo será criptografado.
 
-## 🧠 Aprendizados
-Manipulação de arquivos com Python
+Execute o ```decrypter.py```:
+```bash
+python decrypter.py
+```
+O conteúdo original será restaurado.
 
-- Criação e uso de chaves simétricas
+---
 
-- Noções de segurança ofensiva
+## 🔐 Sobre a chave
+A chave usada é derivada da string ```"Teste"```, com este trecho:
+```bash
+import hashlib, base64
+senha = b"Teste"
+hash = hashlib.sha256(senha).digest()
+chave = base64.urlsafe_b64encode(hash)
+```
+Esse método mantém a chave fixa de forma segura sem gerar uma nova a cada execução.
 
-- Documentação e versionamento de projetos técnicos
+---
 
+## 📷 Imagens
+
+---
+
+📚 Objetivos de Aprendizagem
+
+- Compreender a aplicação de criptografia simétrica (Fernet).
+
+- Aprender a derivar chaves a partir de senhas.
+
+- Manipular arquivos com segurança em Python.
+
+- Simular o comportamento de ransomware como parte da pós-exploração em testes de segurança.
+
+---
+
+## ⚖️ Uso Responsável
+Este projeto é educacional, voltado para o aprendizado de conceitos de segurança, criptografia e Python.
+Jamais use esse tipo de script em sistemas alheios ou fora de ambientes controlados.
+
+---
+## 👨‍💻 Autor
+Taylor Correa
+Repositório criado como parte de estudos práticos do bootcamp Santander Cibersegurança + DIO.
+
+---
+
+## 📎 Referência útil
+Repositório base sugerido pelo desafio:
+https://github.com/cassiano-dio/cibersecurity-desafio-ransomware
