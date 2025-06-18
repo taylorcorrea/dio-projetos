@@ -52,11 +52,11 @@ pip install -r requirements.txt
 ```
 
 ## 🛠 Tecnologias Utilizadas
-Python 3.x
+- Python 3.x
 
-Biblioteca ````cryptography ````
+- Biblioteca ````cryptography ````
 
-Git / GitHub
+- Git / GitHub
 
 ## 🧠 Aprendizados
 Manipulação de arquivos com Python
