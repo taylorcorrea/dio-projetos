@@ -1,42 +1,70 @@
-# 🛡️ Desafio de Cibersegurança - Ransomware em Python
+# 🔐 Projeto Ransomware em Python
 
-Este projeto faz parte do desafio proposto no **bootcamp Santander Bootcamp 2025 - Cibersegurança**, com o objetivo de desenvolver um ransomware **educacional** utilizando a linguagem Python.
-
-> ⚠️ **Atenção**: este projeto é de caráter **educacional** e não deve ser utilizado para fins maliciosos. O uso indevido é crime conforme previsto em lei.
+Este projeto simula, de forma **educacional**, o funcionamento de um **ransomware**. Ele foi desenvolvido como parte do desafio do bootcamp de Cibersegurança da DIO.
 
 ---
 
-## 🎯 Objetivos do Projeto
+## 💡 Objetivos do Desafio
 
-- Desenvolver um **criptografador (encrypter)** de arquivos;
-- Desenvolver um **descriptografador (decrypter)** para restaurar os arquivos;
-- Aplicar técnicas reais de pós-exploração ofensiva, em ambiente controlado;
-- Organizar um repositório público com documentação clara, utilizando Git e GitHub.
-
----
-
-## 🗂️ Estrutura do Projeto
+- Aplicar conceitos de criptografia com Python.
+- Simular uma situação de pós-exploração comum em testes de intrusão.
+- Exercitar o uso do Git e GitHub para versionamento e documentação de projetos técnicos.
 
 ---
 
-## 🔐 Funcionamento
+## ⚙️ Como Funciona
 
-### `encrypter.py`
-- Gera uma chave de criptografia usando a biblioteca `cryptography`;
-- Percorre os arquivos da pasta-alvo;
-- Criptografa cada arquivo encontrado;
-- Salva a chave de forma segura (ou exibe para uso manual no decrypter).
+O projeto contém dois scripts principais:
 
-### `decrypter.py`
-- Solicita a chave gerada anteriormente;
-- Percorre os arquivos criptografados;
-- Descriptografa e restaura os arquivos ao estado original.
+- `encrypter.py`: criptografa arquivos em um diretório-alvo.
+- `decrypter.py`: reverte a criptografia dos arquivos, desde que a chave correta esteja disponível.
 
 ---
 
-## 💻 Como Executar
+## 📁 Estrutura do Projeto
 
-### 1. Clone o repositório
+---
+
+
+---
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+
 ```bash
 git clone https://github.com/taylorcorrea/dio-projetos.git
 cd dio-projetos/Ransomware-python
+```
+---
+
+# Crie um ambiente virtual (opcional, mas recomendado):
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+```
+
+# Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 🛠 Tecnologias Utilizadas
+Python 3.x
+
+Biblioteca ````bash cryptography ````
+
+Git / GitHub
+
+## 🧠 Aprendizados
+Manipulação de arquivos com Python
+
+Criação e uso de chaves simétricas
+
+Noções de segurança ofensiva
+
+Documentação e versionamento de projetos técnicos
+
