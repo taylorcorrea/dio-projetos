@@ -22,14 +22,7 @@ O projeto contém dois scripts principais:
 ---
 
 ## 📁 Estrutura do Projeto
-Ransomware-python/
-├── encrypter.py
-├── decrypter.py
-├── requirements.txt
-├── README.md
-└── images/
-    ├── encrypter_running.png (opcional)
-    └── decrypter_result.png  (opcional)
+
 ---
 
 
