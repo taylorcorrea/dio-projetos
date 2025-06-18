@@ -17,13 +17,6 @@ Este projeto faz parte do desafio proposto no **bootcamp Santander Bootcamp 2025
 
 ## 🗂️ Estrutura do Projeto
 
--encrypter.py # Código para criptografar arquivos
--decrypter.py # Código para descriptografar arquivos
--requirements.txt # Dependências do projeto
--README.md # Documentação completa do projeto
--images/ # Capturas de tela e evidências (opcional)
--encrypt-example.png
--decrypt-example.png
 ---
 
 ## 🔐 Funcionamento
