@@ -85,6 +85,10 @@ Esse método mantém a chave fixa de forma segura sem gerar uma nova a cada exec
 
 ## 📷 Imagens 
 
+<p align="center">
+  <img src="images/criptografia.png" alt="Criptografado" width="45%"/>
+  <img src="images/descriptografia.png" alt="Descriptografado" width="45%"/>
+</p>
 ---
 
 ## 📚 Objetivos de Aprendizagem
