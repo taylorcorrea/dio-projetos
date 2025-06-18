@@ -47,7 +47,6 @@ venv\Scripts\activate     # Windows
 ```
 
 # Instale as dependências:
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -55,16 +54,16 @@ pip install -r requirements.txt
 ## 🛠 Tecnologias Utilizadas
 Python 3.x
 
-Biblioteca ````bash cryptography ````
+Biblioteca ````cryptography ````
 
 Git / GitHub
 
 ## 🧠 Aprendizados
 Manipulação de arquivos com Python
 
-Criação e uso de chaves simétricas
+- Criação e uso de chaves simétricas
 
-Noções de segurança ofensiva
+- Noções de segurança ofensiva
 
-Documentação e versionamento de projetos técnicos
+- Documentação e versionamento de projetos técnicos
 
