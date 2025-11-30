@@ -43,3 +43,5 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
 ## 🤔 Dúvidas?
+
+linkedin: https://www.linkedin.com/in/taylor-corr%C3%AAa/
