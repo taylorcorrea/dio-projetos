@@ -27,6 +27,8 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 ### 2. Construir/Treinar
 
 -   No SageMaker Canvas, importe o dataset que você selecionou.
+<img src="images/comeco.PNG" alt="Foto do projeto" class="img-responsiva">
+
 -   Configure as variáveis de entrada e saída de acordo com os dados.
 -   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
