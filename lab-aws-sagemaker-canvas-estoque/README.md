@@ -1,55 +1,119 @@
-# 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
+# 📊 Previsão de Estoque Inteligente com AWS SageMaker Canvas
 
-Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). Siga os passos abaixo para completar o desafio!
+Este repositório faz parte do desafio de projeto da DIO, onde aplicamos Machine Learning **no-code** utilizando o **Amazon SageMaker Canvas** para criar um modelo capaz de prever níveis de estoque de forma inteligente.
 
-## 📋 Pré-requisitos
+O objetivo é demonstrar o processo completo: desde a seleção do dataset até o treinamento, análise e geração de previsões.
 
-Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda para criar sua conta, confira nosso repositório [AWS Cloud Quickstart](https://github.com/digitalinnovationone/aws-cloud-quickstart).
+---
+
+## 📦 Objetivo do Projeto
+
+Neste projeto você irá:
+
+- Criar um modelo de **Previsão de Estoque** usando o SageMaker Canvas;
+- Explorar dados e entender padrões de consumo;
+- Treinar e avaliar um modelo preditivo;
+- Gerar previsões reais utilizando dados carregados no ambiente AWS;
+- Documentar todo o processo aqui no README.
 
 
-## 🎯 Objetivos Deste Desafio de Projeto (Lab)
+---
 
-![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
+## 🚀 Passo a Passo do Desenvolvimento
 
-- Dê um fork neste projeto e reescreva este `README.md`. Sinta-se à vontade para detalhar todo o processo de criação do seu Modelo de ML para uma "Previsão de Estoque Inteligente".
-- Para isso, siga o [passo a passo] descrito a seguir e evolua as suas habilidades em ML no-code com o Amazon SageMaker Canvas.
-- Ao concluir, envie a URL do seu repositório com a solução na plataforma da DIO.
+### 1️⃣ Selecionar o Dataset
+
+1. Acesse a pasta `datasets/` deste repositório.  
+2. Escolha a base de dados desejada (ou crie uma própria).  
+3. Acesse o **Amazon SageMaker Canvas**.  
+4. Faça upload do arquivo CSV para iniciar sua análise.
+
+---
+
+### 2️⃣ Construir e Treinar o Modelo
+
+Após carregar o dataset no Canvas:
+
+<img src="images/comeco.PNG" alt="Tela inicial do Canvas" width="600">
+
+1. Analise automaticamente os dados carregados.  
+2. Defina qual coluna será a **variável de saída** (target) — ex.: `estoque`, `quantidade_prevista`, etc.  
+3. Verifique se o tipo de previsão é **regressão** ou **classificação**.  
+4. Treine o modelo usando **Quick Build** ou **Standard Build**.
+
+O treinamento pode levar alguns minutos dependendo do dataset.
+
+---
+
+### 3️⃣ Analisar os Resultados
+
+Depois do treinamento:
+
+- Avalie a **acurácia**, **RMSE**, **F1-score** ou a métrica otimizada pelo Canvas.  
+- Verifique o gráfico de **importância das variáveis**, que mostra quais colunas mais influenciam no resultado.  
+- Reavalie e refine seu dataset se necessário.  
+- Se necessário, ajuste colunas, limpe dados ou faça um novo treinamento.
+
+---
+
+### 4️⃣ Gerar Previsões
+
+Com o modelo treinado:
+
+1. Use a aba **Predict** para fazer previsões.  
+2. Envie um novo arquivo CSV ou use linhas individuais.  
+3. Exporte o resultado em CSV ou Excel.  
+4. Utilize os dados para insights reais sobre controle e previsão de estoque.
+
+---
+
+## 🧠 Insights Obtidos
+
+Após as previsões, é possível responder:
+
+- Quais variáveis mais influenciam o estoque?
+- Qual a precisão do modelo?
+- Em quais casos o modelo apresenta maior erro?
+- Qual a tendência de estoque para os próximos dias/semanas?
+
+*(Substitua estas perguntas pelos seus insights pessoais.)*
+
+---
+
+## 📈 Exemplo de Resultado (opcional)
+
+Coloque aqui prints ou gráficos gerados pelo SageMaker:
+
+Exemplo:
+
+Accuracy: 80.63%
+
+Feature mais importante: Time_stamp
+
+Previsões exportadas para CSV com sucesso
+
+<img src="images/comeco.PNG" alt="Início no SageMaker" width="600">
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- **AWS SageMaker Canvas** (No-Code ML)
+- **Machine Learning AutoML**
+- **Amazon S3** (armazenamento de datasets)
+- **Git/GitHub**
+
+## 👤 Autor
+
+Feito por **Taylor Corrêa**  
+🔗 LinkedIn: https://www.linkedin.com/in/taylor-corrêa/
+
+---
+
+## 🏁 Conclusão
+
+Este projeto demonstra a facilidade e o poder do **Machine Learning No-Code** usando o **SageMaker Canvas**, possibilitando criar modelos reais de previsão de estoque sem escrever uma única linha de código.
+
+Sinta-se à vontade para evoluir o modelo, criar visuais, automatizar previsões ou integrar com outras ferramentas AWS!
 
 
-## 🚀 Passo a Passo
-
-### 1. Selecionar Dataset
-
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que você poderá escolher para treinar e testar seu modelo de ML. Sinta-se à vontade para gerar/enriquecer seus próprios datasets, quanto mais você se engajar, mais relevante esse projeto será em seu portfólio.
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
--   Faça o upload do dataset no SageMaker Canvas.
-
-### 2. Construir/Treinar
-
--   No SageMaker Canvas, importe o dataset que você selecionou.
-<img src="dio-projetos/images/comeco.PNG" alt="Foto do projeto" class="img-responsiva">
-
-.img-responsiva {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
-
-### 3. Analisar
-
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
-
-### 4. Prever
-
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
-
-## 🤔 Dúvidas?
-
-linkedin: https://www.linkedin.com/in/taylor-corr%C3%AAa/
