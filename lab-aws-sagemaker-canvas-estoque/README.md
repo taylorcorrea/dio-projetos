@@ -93,11 +93,11 @@ Feature mais importante: Time_stamp
 Previsões exportadas para CSV com sucesso
 
 <p align="center">
-  <img src="imagenss/segundo.png" alt="segundo" width="45%"/>
-  <img src="imagenss/terceira.png" alt="terceira" width="45%"/>
-  <img src="imagenss/quarta.png" alt="quarta" width="45%"/>
-  <img src="imagenss/quinta.png" alt="quinta" width="45%"/>
-  <img src="imagenss/final.png" alt="final" width="36%"/>
+  <img src="imagenss/segundo.png" alt="segundo" width="30%"/>
+  <img src="imagenss/terceira.png" alt="terceira" width="30%"/>
+  <img src="imagenss/quarta.png" alt="quarta" width="30%"/>
+  <img src="imagenss/quinta.png" alt="quinta" width="30%"/>
+  <img src="imagenss/final.png" alt="final" width="20%"/>
 </p>
 
 ---
