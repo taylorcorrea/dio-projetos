@@ -82,11 +82,7 @@ Após as previsões, é possível responder:
 
 ## 📈 Exemplo de Resultado (opcional)
 
-Coloque aqui prints ou gráficos gerados pelo SageMaker:
-
-Exemplo:
-
-Accuracy: 80.63%
+# Accuracy: 80.63%
 
 Feature mais importante: Time_stamp
 
