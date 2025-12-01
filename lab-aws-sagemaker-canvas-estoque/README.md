@@ -82,7 +82,7 @@ Após as previsões, é possível responder:
 
 ## 📈 Exemplo de Resultado (opcional)
 
-# Accuracy: 80.63%
+### Accuracy: 80.63%
 
 Feature mais importante: Time_stamp
 
@@ -108,7 +108,9 @@ Previsões exportadas para CSV com sucesso
 ## 👤 Autor
 
 Feito por **Taylor Corrêa**  
+
 🔗 LinkedIn: https://www.linkedin.com/in/taylor-corrêa/
+🔗 https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque
 
 ---
 
