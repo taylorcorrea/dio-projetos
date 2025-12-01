@@ -34,7 +34,7 @@ Neste projeto você irá:
 
 Após carregar o dataset no Canvas:
 
-<img src="imagess/comeco.png" alt="cemeco" width="600">
+<img src="imagenss/cemeco.png" alt="comeco" width="45%"/>
 
 1. Analise automaticamente os dados carregados.  
 2. Defina qual coluna será a **variável de saída** (target) — ex.: `estoque`, `quantidade_prevista`, etc.  
@@ -95,8 +95,8 @@ Previsões exportadas para CSV com sucesso
 <p align="center">
   <img src="imagenss/segundo.png" alt="segundo" width="45%"/>
   <img src="imagenss/terceira.png" alt="terceira" width="45%"/>
-  <img src="imagenss/quarto.png" alt="quarto" width="45%"/>
-  <img src="imagenss/quinto.png" alt="quinto" width="45%"/>
+  <img src="imagenss/quarta.png" alt="quarta" width="45%"/>
+  <img src="imagenss/quinta.png" alt="quinta" width="45%"/>
   <img src="imagenss/final.png" alt="final" width="45%"/>
 </p>
 
