@@ -34,7 +34,7 @@ Neste projeto você irá:
 
 Após carregar o dataset no Canvas:
 
-<img src="images/comeco.PNG" alt="Tela inicial do Canvas" width="600">
+<img src="imagess/comeco.png" alt="cemeco" width="600">
 
 1. Analise automaticamente os dados carregados.  
 2. Defina qual coluna será a **variável de saída** (target) — ex.: `estoque`, `quantidade_prevista`, etc.  
@@ -92,7 +92,13 @@ Feature mais importante: Time_stamp
 
 Previsões exportadas para CSV com sucesso
 
-<img src="images/comeco.PNG" alt="Início no SageMaker" width="600">
+<p align="center">
+  <img src="imagenss/segundo.png" alt="segundo" width="45%"/>
+  <img src="imagenss/terceira.png" alt="terceira" width="45%"/>
+  <img src="imagenss/quarto.png" alt="quarto" width="45%"/>
+  <img src="imagenss/quinto.png" alt="quinto" width="45%"/>
+  <img src="imagenss/final.png" alt="final" width="45%"/>
+</p>
 
 ---
 
