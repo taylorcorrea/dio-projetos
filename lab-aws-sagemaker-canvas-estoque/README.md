@@ -80,7 +80,7 @@ Após as previsões, é possível responder:
 
 ---
 
-## 📈 Exemplo de Resultado (opcional)
+## 📈 Exemplo de Resultado
 
 ### Accuracy: 80.63%
 
@@ -109,7 +109,8 @@ Previsões exportadas para CSV com sucesso
 
 Feito por **Taylor Corrêa**  
 
-🔗 LinkedIn: https://www.linkedin.com/in/taylor-corrêa/
+🔗 LinkedIn: https://www.linkedin.com/in/taylor-corrêa
+
 🔗 https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque
 
 ---
