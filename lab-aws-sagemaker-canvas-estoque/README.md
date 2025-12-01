@@ -92,7 +92,7 @@ Previsões exportadas para CSV com sucesso
   <img src="imagenss/segundo.png" alt="segundo" width="30%"/>
   <img src="imagenss/terceira.png" alt="terceira" width="30%"/>
   <img src="imagenss/quarta.png" alt="quarta" width="30%"/>
-  <img src="imagenss/quinta.png" alt="quinta" width="35%"/>
+  <img src="imagenss/quinta.png" alt="quinta" width="25%"/>
   <img src="imagenss/final.png" alt="final" width="20%"/>
 </p>
 
