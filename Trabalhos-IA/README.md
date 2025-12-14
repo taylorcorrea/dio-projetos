@@ -71,4 +71,4 @@ Feito por **Taylor Corrêa**
 
 🔗 LinkedIn: https://www.linkedin.com/in/taylor-corrêa
 
-🔗 Github: https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque
+🔗 Github: https://github.com/digitalinnovationone/lab-natty-or-not
