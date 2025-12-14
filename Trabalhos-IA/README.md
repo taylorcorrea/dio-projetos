@@ -22,6 +22,19 @@ Todo o projeto foi produzido utilizando IAs Generativas do início ao fim.
 
 Material didático, envolvente e visualmente rico, demonstrando o uso prático de IA na criação de conteúdo educacional.
 
+<p align="center">
+  <img src="gm/IA1.png" alt="IA1" width="30%"/>
+  <img src="gm/IA2.png" alt="IA2" width="30%"/>
+  <img src="gm/IA3.png" alt="IA3" width="30%"/>
+</p>
+
+<p align="center">
+  <a href="gm/IA.mp4">
+    <img src="gm/IA1.png" alt="Assistir vídeo" width="30%"/>
+  </a>
+</p>
+
+
 ## 🔗 Acesse o e-book
 
 ## 💡 Aprendizados
