@@ -35,7 +35,17 @@ Material didático, envolvente e visualmente rico, demonstrando o uso prático d
 </p>
 
 
-## 🔗 Acesse o e-book
+## 🔗 Links úteis
+
+**[Geminigen IA](https://geminigen.ai/?hard=true)**
+**[Whisk IA](https://labs.google/fx/pt/tools/whisk)**
+**[Grok](https://grok.com/)**
+**[Pollo IA](https://pollo.ai/pt/home)**
+**[Hailuoai Vídeo](https://hailuoai.video/)**
+**[Deevid IA](https://deevid.ai/pt/)**
+**[Leonardo IA](https://leonardo.ai/)**
+**[Flow](https://labs.google/fx/pt/tools/flow)**
+
 
 ## 💡 Aprendizados
 
@@ -46,3 +56,12 @@ Este projeto reforçou o potencial das IAs como ferramentas criativas e educacio
 Um dos principais desafios deste projeto foi criar algo verdadeiramente “natty” — natural, autêntico e com identidade própria — utilizando IA.
 O risco de resultados genéricos é alto quando se depende apenas de geração automática. Por isso, o foco esteve em direcionar bem os prompts, revisar criticamente cada saída e tomar decisões humanas ao longo do processo.
 A IA foi tratada como uma ferramenta criativa, não como um substituto, garantindo que o resultado final mantivesse coerência, intenção e personalidade.
+
+
+## 👤 Autor
+
+Feito por **Taylor Corrêa**  
+
+🔗 LinkedIn: https://www.linkedin.com/in/taylor-corrêa
+
+🔗 Github: https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque
