@@ -51,14 +51,14 @@ Este projeto propõe uma solução baseada em **conversa**, onde o usuário inte
 **[Finanças](https://taylor0001.lovable.app/)**
 
 <p align="center">
-  <img src="fotos/1.png" alt="1" width="30%"/>
-  <img src="fotos/2.png" alt="2" width="30%"/>
-  <img src="fotos/3.png" alt="3" width="30%"/>
-  <img src="fotos/4.png" alt="4" width="30%"/>
-  <img src="fotos/5.png" alt="5" width="30%"/>
-  <img src="fotos/6.png" alt="6" width="30%"/>
-  <img src="fotos/7.png" alt="7" width="30%"/>
-  <img src="fotos/8.png" alt="8" width="30%"/>
+  <img src="fotos/1.png" alt="1" width="20%"/>
+  <img src="fotos/2.png" alt="2" width="20%"/>
+  <img src="fotos/3.png" alt="3" width="20%"/>
+  <img src="fotos/4.png" alt="4" width="20%"/>
+  <img src="fotos/5.png" alt="5" width="20%"/>
+  <img src="fotos/6.png" alt="6" width="20%"/>
+  <img src="fotos/7.png" alt="7" width="20%"/>
+  <img src="fotos/8.png" alt="8" width="20%"/>
 </p>
 
 ### 1. Tela de Boas-Vindas / Onboarding
