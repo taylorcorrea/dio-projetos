@@ -38,12 +38,19 @@ Material didático, envolvente e visualmente rico, demonstrando o uso prático d
 ## 🔗 Links úteis
 
 **[Geminigen IA](https://geminigen.ai/?hard=true)**
+
 **[Whisk IA](https://labs.google/fx/pt/tools/whisk)**
+
 **[Grok](https://grok.com/)**
+
 **[Pollo IA](https://pollo.ai/pt/home)**
+
 **[Hailuoai Vídeo](https://hailuoai.video/)**
+
 **[Deevid IA](https://deevid.ai/pt/)**
+
 **[Leonardo IA](https://leonardo.ai/)**
+
 **[Flow](https://labs.google/fx/pt/tools/flow)**
 
 
